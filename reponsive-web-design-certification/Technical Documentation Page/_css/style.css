@@ -1,0 +1,177 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
+}
+
+.side_nav {
+    width: 25%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    position: fixed;
+    overflow: auto;
+    margin: 0px;
+    top:0;
+    bottom: 0;
+    }
+
+
+  main {
+  margin-left: 25%; 
+  background-color: #FFF8DC;
+  padding: 40px;
+}
+
+.side_nav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  height: 150px;
+  width: 100x;
+}
+
+.search-container {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.side_nav input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://png.icons8.com/office/50/000000/search.png');
+    background-position: 7px 12px; 
+    background-repeat: no-repeat;
+    background-size: 22px;
+    padding: 12px 20px 12px 40px;
+}
+
+header {
+  color: #008080;
+  padding-left: 5px;
+  margin: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #5499C7;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.main-section {
+  padding: 0 10px;
+  margin: 5px;
+}
+
+section li {
+   margin-bottom: 20px;
+}
+
+p {
+    display: block;
+    padding: 1px 16px;
+}
+
+.code {
+  margin-left: 25px;
+  padding: 2px;
+  background-color: #F2F3F4;
+  border-radius: 4px;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+.li_indent_0 {
+  margin-left: 90px;
+}
+
+.li_indent_1 {
+  margin-left: 60px;
+}
+
+.ul_style {
+  text-indent: 10px;
+}
+
+section a {
+    color: #5499C7;
+    text-decoration: none;
+}
+
+section a:hover {
+    background-color: #D5F5E3;
+    color: #1A5276;
+    text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+.side_nav {
+  width: 100%;
+  height: 35%;
+  font-size: smaller;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  margin: 0px;
+  z-index: 1;
+}
+
+main {
+ width: 100%;
+ text-align: center;
+ margin: 0 auto;
+ margin-top: 60%;
+ font-size: smaller;
+ 
+}
+
+}
+
+@media screen and (max-width: 600px) {
+  .side_nav .search-container {
+    float: none;
+  }
+   .side_nav input[type=text] {
+    float: none;
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 12px 20px 12px 40px;
+  }
+  .side_nav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+  .side_nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    max-height: 40%;
+    max-width: 40%;
+}
+
+}
+

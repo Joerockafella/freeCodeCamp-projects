@@ -1,0 +1,103 @@
+ body {
+      margin: 60px;
+      padding: 10px;
+      font-size: 17px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #main {
+      background-color: #A9A9A9;
+      padding: 20px;
+    }
+
+    #title {
+      text-align: center;
+      font-size: 50px;
+    }
+
+    .dsc {
+      text-align: center;
+      font-size: 25px;
+    }
+    
+    img {
+      display: block;
+    }
+
+    #img-div {
+      display: flex;
+      max-width: 100%;
+      height: auto;
+    }
+ 
+    #image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #image_2 {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    #img-caption {
+      text-align: center;
+      width: 50%;
+      background-color: #F0FFFF;
+      word-wrap: break-word;
+      font-style: italic;
+      font-size: smaller;
+      text-indent: 0;
+      border: thin silver solid;
+      margin: 0.4em;
+      padding: 0.4em;
+    }
+
+    #img-caption_2 {
+      text-align: center;
+      width: 50%;
+      background-color: #F0FFFF;
+      word-wrap: break-word;
+      font-style: italic;
+      font-size: smaller;
+      text-indent: 0;
+      border: thin silver solid;
+      margin: 0.4em;
+      padding: 0.4em;
+    }
+
+    #tribute-info{
+       margin:20%;
+       margin-top: 0px;
+       margin-bottom: 0px;
+    }
+
+    #tribute-link{
+      color: #00008B;
+    }
+
+    a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    }
+
+    blockquote, h4, footer {
+      text-align: center;
+    }
+
+    cite {
+    font-style: italic;
+    font-size: smaller;
+    }
+
+
+    @media only screen and (max-width: 800px) {
+      .responsive {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+    }
